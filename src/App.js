@@ -7,6 +7,7 @@ function Welcome(props) {
 function App() {
   return (
     <div>
+      THis is my first project of git
       <Welcome name="Sara" />
       <Welcome name="Cahal" />
       <Welcome name="Edite" />
