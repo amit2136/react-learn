@@ -1,18 +1,13 @@
-import './App.css';
+import React from 'react';
 
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
-
-function App() {
-  return (
-    <div>
-      THis is my first project of git
-      <Welcome name="Sara" />
-      <Welcome name="Cahal" />
-      <Welcome name="Edite" />
-    </div>
-  );
+class App extends React.Component {
+  constructor() {
+    super();
+    this.state = {color: "red"};
+  }
+  render() {
+    return <h2>I am a {this.state.color} Car!</h2>;
+  }
 }
 
 export default App;
